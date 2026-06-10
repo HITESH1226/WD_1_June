@@ -2,3 +2,41 @@ h3{
 
     color: brown;
 }
+
+/* Selectors */
+/* simple selector */
+/* id selector */
+
+#h444{
+    color: aqua;
+}
+
+/* class selector */
+
+.c11{
+color:aquamarine
+
+}
+
+/* tagname selector */
+
+h2{
+
+    font-family: 'Franklin Gothic Medium';
+}
+
+/* grouping */
+
+#h444,.c11,h2,p{
+
+    background-color: brown;
+}
+
+/* universal */
+
+*{
+
+    background-color: cyan;
+}
+
+/* combinator selector */

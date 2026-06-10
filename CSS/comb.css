@@ -1,0 +1,26 @@
+/* combinator selector */
+
+/* Descendent cs*/
+
+div p{
+
+    color: blue;
+}
+
+/* child cs */
+div>p{
+
+    color: brown;
+}
+
+/* adjacent cs */
+div+p{
+
+    color: cyan
+}
+
+/* general sibling cs */
+div~p{
+
+    color: yellow;
+}
