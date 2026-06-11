@@ -1,0 +1,30 @@
+*{
+    background: linear-gradient(white ,);
+}
+
+
+div{
+
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(white, red);
+    padding-top: 200px;
+    padding-left: 200px;
+    /* float: right; */
+
+    margin-top: 180px;
+    margin-left: 160px;
+    border-style: double;
+    border-color: black;
+    box-shadow: 35px 20px 35px 20px;
+    border-radius: 20px 0px 20px 0px;
+    opacity: 1.6;
+    
+}
+
+div:hover{
+
+background: radial-gradient(cyan,black);
+border-radius: 360px;
+
+}

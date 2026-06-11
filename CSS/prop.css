@@ -39,10 +39,11 @@ background-image: url(../HTML/anime-moon-landscape.jpg),url(../HTML/maharaj.png)
 /* background-image: url(../HTML/anime-moon-landscape.jpg); */
 /* background: linear-gradient(red,blue,cyan,); */
 background-repeat: no-repeat;
-background-attachment: fixed;
+/* background-attachment: fixed; */
 background-size: cover;
 background-position: center ;
 background-blend-mode: lighten;
 
 
 }
+
