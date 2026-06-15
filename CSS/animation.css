@@ -1,0 +1,63 @@
+div{
+
+    height: 300px;
+    width: 300px;
+    background: radial-gradient(rgb(40, 148, 18),red);
+    animation: xyz 5s ease-in-out 2s infinite;
+    margin-top: 70px;
+    margin-left: 70px;
+
+}
+@keyframes xyz{
+
+    0%{
+        background: linear-gradient(rgb(57, 23, 88),white);
+    border-radius: 20px ;
+    transform: rotate(45deg);
+    float: right;
+    transform: scale(1.7);
+    /* display: none; */
+    }
+
+    20%{
+
+        background: radial-gradient(rgb(74, 5, 5),skyblue);
+        border-radius: 40px;
+        transform: rotate(90deg);
+        margin-top: 400px;
+
+    }
+
+    40%{
+        background: radial-gradient(rgb(191, 244, 160),rgb(27, 55, 67));
+        border-radius: 90px;
+        transform: rotate(180deg);
+        transform: scale(0.4);
+        opacity: 0.3;
+
+    }
+
+    60%{
+        background: radial-gradient(rgb(60, 18, 47),rgb(71, 22, 26));
+        border-radius: 150px;
+        transform: rotate(270deg);
+        transform: scale(1.9);
+
+    }
+
+    80%{
+        background: radial-gradient(rgb(59, 53, 47),rgb(88, 3, 83));
+        border-radius: 360px;
+        transform: rotate(360deg);
+        transform: skew(45deg);
+    }
+
+    100%{
+
+        background: linear-gradient(rgb(1, 77, 77),rgb(244, 145, 145));
+        border-radius: 720px;
+        transform: rotate3d(720deg);
+        transform: translate(1.9);
+    }
+
+}

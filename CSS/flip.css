@@ -1,0 +1,41 @@
+nav{
+
+    height: 50px;
+    width: 100%;
+    text-decoration: dashed;
+}
+
+
+a{
+
+    color: black;
+    text-decoration: none;
+}
+article{
+
+    height: 50px;
+    width: 100%;  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+input{
+
+    height: 30px;
+    width: 1150px;
+    border-color: blueviolet;
+    
+}
+
+
+
+button{
+width: 110px;
+border: hidden;
+background-color: white;
+
+}
+
