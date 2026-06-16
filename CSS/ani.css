@@ -3,9 +3,9 @@ div{
 height: 350px;
 width: 200px;
 margin-top: 90px;
-margin-left: 50px;
+margin-left: -3px;
 animation: shaktiman 4s ease-in-out 3s infinite;
- animation: rotateImage 00.00001s linear infinite;
+ animation: rotateImage 0.01s linear infinite;
 
 }
 @keyframes rotateImage{
@@ -15,4 +15,6 @@ animation: shaktiman 4s ease-in-out 3s infinite;
     to{
         transform: rotateY(360deg);
     }
+
+ 
 }
