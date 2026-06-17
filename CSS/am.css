@@ -1,6 +1,6 @@
 nav{
 
-height: 50px;
+height: 40px;
 width: 100%;
 background-color: rgb(48, 43, 43);
 
@@ -24,6 +24,13 @@ article{
 
 img{
 
-height: 35px;
+height: 75px;
 
 }
+
+.hover:hover{
+
+    transform: scale(1.1);
+    
+}
+
